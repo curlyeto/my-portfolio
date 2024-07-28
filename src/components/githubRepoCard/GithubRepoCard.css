@@ -64,13 +64,19 @@
 .repo-star-svg {
   margin-right: 0.3rem;
 }
-
+.experience-card-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin-right: 2%;
+  background: white;
+}
 .repo-description {
   overflow: hidden;
   text-align: left;
   display: -webkit-box;
   font-family: "Google Sans Regular";
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 12;
   -webkit-box-orient: vertical;
   margin-top: 0.8rem;
 }

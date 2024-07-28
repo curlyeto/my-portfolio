@@ -1,122 +1,200 @@
 {
   "data": [
     {
-      "id": "R_kgDOJWL0-g",
-      "name": "mdp-diffusion",
-      "createdAt": "2023-04-13T04:18:19Z",
-      "url": "https://github.com/ashutosh1919/mdp-diffusion",
-      "description": "Text-guided image editing by manipulating diffusion path without any training.",
+      "id": "kryptobot-app",
+      "name": "Kryptobot App",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "url": "https://apps.apple.com/us/app/kryptobot/id6502873410",
+      "androidUrl": "https://play.google.com/store/apps/details?id=com.renoma.kryptobot",
+      "iosURL": "https://apps.apple.com/us/app/kryptobot/id6502873410",
+      "type": "Mobile",
+      "description": "Kryptobot is an innovative application that automates cryptocurrency trading, enabling users to achieve guaranteed profitable outcomes without prior trading knowledge. In this project, I was responsible for developing the app using Flutter, meticulously converting provided Figma designs into a functional and intuitive front-end. I also integrated essential backend services to support all functionalities, including robust 2FA verification and multi-language options, ensuring a secure and user-friendly experience. This role highlighted my expertise in creating seamless, secure digital solutions that enhance user engagement and trust.",
       "isFork": false,
+      "aviableStore": true,
+      "androidAviable": true,
+      "iosAviable": true,
+      "infoText": "Downlond from stores",
+      "logo": "kryptobot.png",
+      "languages": [
+        {
+          "name": "Flutter",
+          "iconifyClass": "logos:flutter"
+        },
+        {
+          "name": "Android",
+          "iconifyClass": "logos:android-icon"
+        },
+        {
+          "name": "IOS",
+          "iconifyClass": "logos:ios"
+        },
+        {
+          "name": "RESTful API",
+          "iconifyClass": "vscode-icons:file-type-rest"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos:firebase"
+        }
+      ]
+    },
+    {
+      "id": "cambrian-college-alumni",
+      "name": "Cambrian College Alumni App",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "url": "https://apps.apple.com/ca/app/cambrian-college-alumni/id6469515344",
+      "androidUrl": "https://play.google.com/store/apps/details?id=com.cambrain.college.alumini.ca",
+      "iosURL": "https://apps.apple.com/ca/app/cambrian-college-alumni/id6469515344",
+      "type": "Mobile",
+      "description": "As part of a dynamic team of five developers, my role involved designing and developing the Cambrian Alumni App. This innovative platform serves as a hub for alumni to access exclusive offers, connect with peers, and stay informed about community events and resources, enhancing their post-graduation experience and engagement.",
+      "isFork": false,
+      "aviableStore": true,
+      "androidAviable": true,
+      "iosAviable": true,
+      "infoText": "Downlond from stores",
+      "logo": "cambrian.png",
+      "languages": [
+        {
+          "name": "Ionic",
+          "iconifyClass": "logos-ionic"
+        },
+        {
+          "name": "Android",
+          "iconifyClass": "logos:android-icon"
+        },
+        {
+          "name": "IOS",
+          "iconifyClass": "logos:ios"
+        },
+        {
+          "name": "Javascript",
+          "iconifyClass": "logos-javascript"
+        }
+      ]
+    },
+    {
+      "id": "center-for-smart-mining-sofvie",
+      "name": "Center for Smart Mining - Sofvie",
+      "createdAt": "2023-03-01T00:00:00Z",
+      "type": "Web",
+      "url": "https://sofvie.com/",
+      "description": "Played a pivotal role in facilitating effective communication between the client and our team, ensuring a thorough understanding of project requirements and objectives. By actively engaging in discussions, providing expert guidance, and reviewing the technology specification document, contributed to informed decision-making and the alignment of the project with the client's goals. Leveraging the client's stack developed a robust web application tailored to their needs, emphasizing usability, accessibility, and security. The successful delivery of the project not only met the client's expectations but also empowered them to optimize their operations and achieve their objectives efficiently.",
+      "isFork": false,
+      "androidAviable": false,
+      "iosAviable": false,
+      "logo": "sofvie.svg",
       "languages": [
         {
           "name": "Python",
           "iconifyClass": "logos-python"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "Jupyter Notebook",
-          "iconifyClass": "logos-jupyter"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
+          "name": "Javascript",
           "iconifyClass": "logos-javascript"
         },
         {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
+          "name": "Php",
+          "iconifyClass": "logos:php"
+        },
+        {
+          "name": "Angular",
+          "iconifyClass": "vscode-icons:file-type-angular"
+        },
+        {
+          "name": "Django",
+          "iconifyClass": "skill-icons:django"
         }
       ]
     },
     {
-      "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
+      "id": "goray-technical",
+      "name": "Goray Technical Mobile App",
+      "createdAt": "2022-07-01T20:41:33Z",
+      "url": "https://www.goray.com.tr/",
+      "androidUrl": "https://play.google.com/store/apps/details?id=com.berkaycay li.goray_teknik",
+      "iosURL": "https://apps.apple.com/ve/app/göray- iklimlendirme/id1570619101?l=en#?platform=iphone",
+      "type": "Web",
+      "description": "Led the development of cross-platform applications for both Android and iOS platforms using Flutter, ensuring a consistent user experience across devices. Employing the MVVM (Model-View-ViewModel) design pattern, maintained code continuity and scalability, enhancing the maintainability of the application. Collaboration with the backend services teammate was seamless, as we worked in harmony to integrate frontend and backend functionalities effectively. The resulting software provided company personnel with a user-friendly and efficient tool to streamline their workflows and improve productivity.",
+      "logo": "goray.png",
+      "aviableStore": false,
+      "infoText": "Unfortunatly it is not available in stores right now",
       "isFork": false,
+      "androidAviable": false,
+      "iosAviable": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "Flutter",
+          "iconifyClass": "logos:flutter"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Android",
+          "iconifyClass": "logos:android-icon"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
+          "name": "IOS",
+          "iconifyClass": "logos:ios"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "RESTful API",
+          "iconifyClass": "vscode-icons:file-type-rest"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos:firebase"
         }
       ]
     },
     {
-      "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
+      "id": "koalassist",
+      "name": "Koalassist",
+      "createdAt": "2020-11-01T14:50:20Z",
+      "url": "https://apps.apple.com/be/app/koalassist/id1522947987",
+      "androidUrl": "https://play.google.com/store/apps/details?id=com.ertugrulsa hin.koalassist",
+      "iosURL": "https://apps.apple.com/be/app/koalassist/id1522947987",
+      "type": "Mobile",
+      "description": "Created processes and business requirements documentation. Actively participated as team members in planning and implementing projects. Using Flutter, developed applications for Android and iOS platforms, integrating services such as Firebase and Google Maps. Incorporated payment methods including Stripe, Google Pay, and Apple Pay into the project and employed the MVVM design pattern to ensure code continuity. Additionally, formulated and automated mobile software testing protocols to optimize efficiency and reliability across the software development lifecycle.",
       "isFork": false,
+      "aviableStore": true,
+      "infoText": "Only available in apple store",
+      "logo": "koalassist.png",
+      "androidAviable": false,
+      "iosAviable": true,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "Flutter",
+          "iconifyClass": "logos:flutter"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Android",
+          "iconifyClass": "logos:android-icon"
+        },
+        {
+          "name": "IOS",
+          "iconifyClass": "logos:ios"
+        },
+        {
+          "name": "Stripe",
+          "iconifyClass": "logos:stripe"
+        },
+        {
+          "name": "Apple Pay",
+          "iconifyClass": "simple-icons:applepay"
+        },
+        {
+          "name": "Google Pay",
+          "iconifyClass": "logos:google-pay"
+        },
+        {
+          "name": "Google Maps",
+          "iconifyClass": "logos:google-maps"
+        },
+        {
+          "name": "RESTful API",
+          "iconifyClass": "vscode-icons:file-type-rest"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos:firebase"
         }
       ]
     }
