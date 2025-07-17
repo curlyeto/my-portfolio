@@ -1,3 +1,5 @@
+/* GithubRepoCard.css - Enhanced version */
+
 .repo-card-div {
   color: rgb(88, 96, 105);
   box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
@@ -5,6 +7,7 @@
   cursor: pointer;
   flex: 1 1 25%;
 }
+
 .repo-card-div:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
@@ -48,6 +51,40 @@
   min-width: 16px;
 }
 
+/* Enhanced logo container */
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2%;
+}
+
+.experience-card-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  background: white;
+  object-fit: contain;
+  padding: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.experience-card-logo:hover {
+  transform: scale(1.05);
+}
+
+.logo-fallback {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
 .repo-name {
   text-align: left;
   color: rgb(36, 41, 46);
@@ -64,13 +101,7 @@
 .repo-star-svg {
   margin-right: 0.3rem;
 }
-.experience-card-logo {
-  width: 60px;
-  height: 60px;
-  border-radius: 20px;
-  margin-right: 2%;
-  background: white;
-}
+
 .repo-description {
   overflow: hidden;
   text-align: left;
@@ -97,8 +128,10 @@
 .repo-languages {
   margin-left: auto;
   margin-right: 0px;
+  width: 100%;
 }
 
+/* Enhanced responsive design */
 @media (max-width: 1200px) {
   .repo-card-div {
     flex: 1 1 40%;
@@ -124,5 +157,21 @@
 
   .repo-creation-date {
     font-size: 14px;
+  }
+
+  .experience-card-logo {
+    width: 50px;
+    height: 50px;
+    padding: 6px;
+  }
+
+  .logo-fallback {
+    width: 50px;
+    height: 50px;
+  }
+
+  .repo-languages {
+    margin-left: 0;
+    margin-top: 15px;
   }
 }

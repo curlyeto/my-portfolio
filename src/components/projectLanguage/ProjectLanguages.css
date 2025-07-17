@@ -1,0 +1,134 @@
+/* ProjectLanguages.css */
+
+.languages-container {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.software-skills-main-div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.dev-icons.languages-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 15px 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  justify-items: start;
+}
+
+.software-skill-inline.languages-inline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  min-width: 70px;
+  max-width: 90px;
+  padding: 8px 4px;
+  transition: transform 0.2s ease;
+  position: relative;
+}
+
+.software-skill-inline.languages-inline:hover {
+  transform: translateY(-2px);
+}
+
+.software-skill-inline.languages-inline:hover .language-name {
+  opacity: 1;
+}
+
+.language-icon {
+  font-size: 32px !important;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.language-name {
+  font-size: 10px;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.2;
+  word-wrap: break-word;
+  color: inherit;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 10;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .dev-icons.languages-list {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px 8px;
+  }
+
+  .language-icon {
+    font-size: 28px !important;
+    width: 28px;
+    height: 28px;
+  }
+
+  .language-name {
+    font-size: 9px;
+  }
+
+  .software-skill-inline.languages-inline {
+    min-width: 60px;
+    max-width: 75px;
+    padding: 6px 2px;
+  }
+
+  .software-skill-inline.languages-inline:hover .language-name {
+    bottom: -18px;
+    font-size: 9px;
+    padding: 3px 6px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dev-icons.languages-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 6px;
+  }
+
+  .language-icon {
+    font-size: 24px !important;
+    width: 24px;
+    height: 24px;
+  }
+
+  .language-name {
+    font-size: 8px;
+  }
+
+  .software-skill-inline.languages-inline {
+    min-width: 50px;
+    max-width: 65px;
+    padding: 4px 2px;
+  }
+
+  .software-skill-inline.languages-inline:hover .language-name {
+    bottom: -16px;
+    font-size: 8px;
+    padding: 2px 4px;
+  }
+}

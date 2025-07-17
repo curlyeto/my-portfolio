@@ -1,6 +1,70 @@
 {
   "data": [
     {
+      "id": "parker",
+      "name": "Parker",
+      "createdAt": "2024-01-01T00:00:00Z",
+      "url": "https://parker.no/",
+      "androidUrl": "https://play.google.com/store/apps/details?id=com.renoma.parkerapp&hl=en_CA",
+      "iosURL": "https://apps.apple.com/us/app/parker/id6476899638",
+      "type": "Mobile",
+      "description": "Parker is an advanced parking management platform combining web and mobile technologies to simplify parking operations. The web panel enables parking owners to manage lots, designate individual spots, set schedules, and highlight amenities efficiently. For end users, the Parker mobile app offers a seamless experience to find, view details, and reserve parking spaces directly from their devices. By bridging the gap between providers and consumers, Parker optimizes parking logistics, enhances convenience, and improves overall user satisfaction.",
+      "isFork": false,
+      "aviableStore": true,
+      "androidAviable": true,
+      "iosAviable": true,
+      "infoText": "Currently available in Norway",
+      "adminUrl": "https://admin.parker.no/auth",
+      "webInfo": "Parker and Parking Owner Websites",
+      "logo": "parker-logo-pdf.png",
+      "languages": [
+        {
+          "name": "Flutter",
+          "iconifyClass": "logos:flutter"
+        },
+        {
+          "name": "Android",
+          "iconifyClass": "logos:android-icon"
+        },
+        {
+          "name": "IOS",
+          "iconifyClass": "logos:ios"
+        },
+        {
+          "name": "Angular",
+          "iconifyClass": "logos:angular"
+        },
+        {
+          "name": "Laravel",
+          "iconifyClass": "logos:laravel"
+        },
+        {
+          "name": "Stripe",
+          "iconifyClass": "logos:stripe"
+        },
+        {
+          "name": "Apple Pay",
+          "iconifyClass": "simple-icons:applepay"
+        },
+        {
+          "name": "Google Pay",
+          "iconifyClass": "logos:google-pay"
+        },
+        {
+          "name": "Google Maps",
+          "iconifyClass": "logos:google-maps"
+        },
+        {
+          "name": "RESTful API",
+          "iconifyClass": "vscode-icons:file-type-rest"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos:firebase"
+        }
+      ]
+    },
+    {
       "id": "kryptobot-app",
       "name": "Kryptobot App",
       "createdAt": "2024-01-01T00:00:00Z",
@@ -14,6 +78,7 @@
       "androidAviable": true,
       "iosAviable": true,
       "infoText": "Downlond from stores",
+      "webInfo": "",
       "logo": "kryptobot.png",
       "languages": [
         {
@@ -52,6 +117,7 @@
       "androidAviable": true,
       "iosAviable": true,
       "infoText": "Downlond from stores",
+      "webInfo": "",
       "logo": "cambrian.png",
       "languages": [
         {
@@ -83,6 +149,7 @@
       "androidAviable": false,
       "iosAviable": false,
       "logo": "sofvie.svg",
+      "webInfo": "",
       "languages": [
         {
           "name": "Python",
@@ -121,6 +188,7 @@
       "isFork": false,
       "androidAviable": false,
       "iosAviable": false,
+      "webInfo": "",
       "languages": [
         {
           "name": "Flutter",
@@ -159,6 +227,7 @@
       "logo": "koalassist.png",
       "androidAviable": false,
       "iosAviable": true,
+      "webInfo": "",
       "languages": [
         {
           "name": "Flutter",
